@@ -25,7 +25,7 @@
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32h7xx_hal.h"
+//#include "stm32h7xx_hal.h"
 
 /* COM define */
 #define USE_COM_LOG                         0U
@@ -34,7 +34,7 @@
 /* LCD controllers defines */
 #define USE_LCD_CTRL_NT35510                1U
 #define USE_LCD_CTRL_OTM8009A               0U
-#define USE_LCD_CTRL_ADV7533                1U
+#define USE_LCD_CTRL_ADV7533                0U
 
 #define LCD_LAYER_0_ADDRESS                 0xC0000000U
 #define LCD_LAYER_1_ADDRESS                 0xC0200000U
